@@ -63,7 +63,7 @@
       }
     },
     {
-      "name": "test text,
+      "name": "test text",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/cgreenhalgh/RADAR-aRMT-protocols/master/questionnaires/",
