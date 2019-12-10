@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "schemaVersion": "0.0.2",
   "name": "test1",
   "healthIssues": [
@@ -59,6 +59,57 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
+        }
+      }
+    },
+    {
+      "name": "test text,
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/cgreenhalgh/RADAR-aRMT-protocols/master/questionnaires/",
+        "name": "test_text",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This is a test with just text.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            720
+          ]
+        },
+        "reminders": {
+          "unit": "min",
+          "amount": 30,
+          "repeat": 3
         }
       }
     }
